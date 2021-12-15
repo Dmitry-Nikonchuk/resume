@@ -1,4 +1,9 @@
 {
   "name": "Nikonchuk Dmitry",
-  "profession": "Web developer"
+  "profession": "Javascript developer",
+  "workExperience": "Work experience",
+  "seeCertificate": "See certificate",
+  "education": "Education",
+  "langs": "Languages",
+  "skills": "Skills"
 }
