@@ -22,6 +22,7 @@ export const LngBtn = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 30px;
   height: 30px;
   border: 1px solid ${({ theme }) => theme.colors.main};
   font-size: 14px;

@@ -4,5 +4,6 @@ export default {
     text: "#555e70",
     dark: "#313844",
     white: "#ffffff",
+    link: "#004aad",
   },
 };

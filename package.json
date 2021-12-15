@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --port 3000 --mode development --open --hot",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Dmitry-Nikonchuk/resume/issues"
   },
-  "homepage": "https://github.com/Dmitry-Nikonchuk/resume#readme",
+  "homepage": "https://Dmitry-Nikonchuk.github.io/resume",
   "dependencies": {
     "i18next": "^21.6.0",
     "i18next-browser-languagedetector": "^6.1.2",
@@ -34,9 +36,12 @@
     "@babel/helper-module-imports": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
     "@babel/preset-react": "^7.16.0",
+    "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.3",
+    "copy-webpack-plugin": "^10.1.0",
     "css-loader": "^6.5.1",
     "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "url-loader": "^4.1.1",
