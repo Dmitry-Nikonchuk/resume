@@ -4,7 +4,7 @@ export const Link = styled.a`
   color: ${({ theme }) => theme.colors.link};
   text-decoration: none;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 14px;
   text-decoration: underline;
 
   &:visited {

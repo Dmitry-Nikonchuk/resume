@@ -6,4 +6,9 @@ export default {
     white: "#ffffff",
     link: "#004aad",
   },
+
+  sizes: {
+    sidebarWidth: 280,
+    avatarSize: 140,
+  }
 };

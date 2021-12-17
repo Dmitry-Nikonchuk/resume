@@ -16,7 +16,7 @@ i18n
 
     debug: isDevelopment,
 
-    keySeparator: false,
+    keySeparator: '.',
 
     ns: ["common"],
 

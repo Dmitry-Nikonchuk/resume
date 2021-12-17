@@ -47,6 +47,10 @@ module.exports = {
           from: path.join(__dirname, "public", "locales"),
           to: path.join(__dirname, "build", "locales"),
         },
+        {
+          from: path.join(__dirname, 'public', 'favicon.ico'),
+          to: path.join(__dirname, 'build', 'favicon.ico'),
+        }
       ],
     }),
   ],
