@@ -1,9 +1,61 @@
 {
   "name": "Nikonchuk Dmitry",
   "profession": "Javascript developer",
-  "workExperience": "Work experience",
   "seeCertificate": "See certificate",
   "education": "Education",
-  "langs": "Languages",
-  "skills": "Skills"
+  "contacts": {
+    "title": "Get in touch",
+    "phone": "Mobile",
+    "email": "Email",
+    "skype": "Skype",
+    "location": "Location",
+    "locationString": "Belarus, Minsk"
+  },
+  "timing": {
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "present": "present"
+  },
+  "workExperience": {
+    "title": "Work experience",
+    "es": "Participation in the development of applications of varying degrees of complexity, work on current projects, creation of new features, revision of existing ones. Development of the client side of applications, participation in the development of the server side. Technology stack used: Javascript/Typescript, React, Redux, redux-thunk, redux-saga, Victory, Styled-Components, NodeJs, NestJs, postgreSQL, MySQL, Сassandra, AWS, Azure, Git",
+    "deltastream": "Development of various kinds of advertising pages and landing pages, revision and support of client companies' websites, development and support of internal company projects. Technology stack used: HTML, CSS, SCSS, Bootstrap3, Javascript (ES5, ES6), JQuery, React, Redux, NodeJs, Express, MySQL, PHP",
+    "ls": "Participation in the creation and development of advertising pages for the company, work on a corporate website, maintaining the relevance of content on the site. Technology stack used: HTML, CSS, LESS, SCSS, Bottstrap3, Javascript, JQuery, Angular2, PHP",
+    "choir": "Playing in the orchestra, concerts, tours.",
+    "midenco": "Development of the client side of an online store from start to production. Technology stack used: HTML, CSS, JQuery"
+  },
+  "skills": {
+    "title": "Skills",
+    "list": [
+      "HTML5",
+      "CSS3, preprocessors (LESS, SASS), frameworks (Bootstrap)",
+      "Javascript (ES5, ES6)",
+      "Knowledge of NodeJS, Express, NestJs",
+      "React, React Hooks, Redux, Redux-thunk, Redux-saga, Styled-Components",
+      "Knowledge of Gulp, Webpack",
+      "Basic knowledge of algorithms and data structures, OOP",
+      "Git, Jira",
+      "Photoshop, Figma"
+    ]
+  },
+  "langs": {
+    "title": "Languages",
+    "russian": "Russian",
+    "russianLevel": "Native",
+    "english": "English",
+    "englishLevel": "A2, A2+"
+  },
+  "choirName": "National Choir of Belarus named Citovich",
+  "choirPosition": "Artist of orchestra (Drums)",
+  "designer": "Layout designer, HTML coder",
+  "academy": "Belorussian Academy of Music",
+  "academyStatus": "Teacher, Artist of orchestra",
+  "academyDiploma": "Diploma of Higher Education",
+  "highSchool": "Baranovichi State Music high school",
+  "highSchoolStatus": "Teacher of music (drums)",
+  "highSchoolDiploma": "High School Diploma"
 }

@@ -1,9 +1,62 @@
 {
   "name": "Никончук Дмитрий Николаевич",
   "profession": "Javascript разработчик",
-  "workExperience": "Опыт работы",
   "seeCertificate": "См. сертификат",
   "education": "Образование",
-  "langs": "Языки",
-  "skills": "Навыки"
+  "contacts": {
+    "title": "Контакты",
+    "phone": "Телефон",
+    "email": "Email",
+    "skype": "Skype",
+    "location": "Место проживания",
+    "locationString": "Беларусь, г. Минск",
+    "langs": "Languages"
+  },
+  "timing": {
+    "march": "Март",
+    "april": "Апрель",
+    "may": "Май",
+    "june": "Июнь",
+    "july": "Июль",
+    "august": "Август",
+    "present": "настоящее время"
+  },
+  "workExperience": {
+    "title": "Опыт работы",
+    "es": "Участие в разработке приложений различной степени сложности, работа над текущими проектами, создание новых фич, доработка существующих. Разработка клиентской части приложений, участие в разработке серверной части. Используемый стек технологий: Javascript/Typescript, React, React Hooks, Redux, redux-thunk, redux-saga, Victory, Styled-Components, NodeJs, NestJs, postgreSQL, MySQL, Сassandra, AWS, Azure, Git",
+    "deltastream": "Разработка различного рода рекламных страниц и landing pages, доработка и поддержка сайтов компаний-клиентов, разработка и поддержка внутренних проектов компании. Используемый стек технологий: HTML, CSS, SCSS, Bootstrap3, Javascript (ES5, ES6), JQuery, React, Redux, NodeJs, Express, MySQL, PHP",
+    "ls": "Участие в создании и разработке рекламных страниц компании, работа над корпоративным сайтом, поддержка актуальности контена на сайте. Используемый стек технологий: HTML, CSS, LESS, SCSS, Bootstrap3, Javascript, JQuery, Angular2, PHP",
+    "choir": "Игра в оркестре, концертная деятельность, гастроли.",
+    "midenco": "Разработка клиентской части интернет-магазина от идеи до выхода в production. Используемый стек технологий: HTML, CSS, JQuery"
+  },
+  "skills": {
+    "title": "Навыки",
+    "list": [
+      "HTML5",
+      "CSS3, препроцессоры (LESS, SASS), фреймворки (Bootstrap)",
+      "Javascript (ES5, ES6)",
+      "Знание NodeJS, Express, NestJs",
+      "React, React Hooks, Redux, Redux-thunk, Redux-saga, Styled-Components",
+      "Знание Gulp, Webpack",
+      "Базовые знания алгоритмов и структур данных, ООП",
+      "Git, Jira",
+      "Photoshop, Figma"
+    ]
+  },
+  "langs": {
+    "title": "Языки",
+    "russian": "Русский",
+    "russianLevel": "Родной",
+    "english": "Английский",
+    "englishLevel": "A2, A2+"
+  },
+  "choirName": "Национальный хор РБ им. Г.И. Цитовича",
+  "choirPosition": "Артист оркестра (ударные инстр.)",
+  "designer": "Верстальщик",
+  "academy": "Белорусская Академия Музыки",
+  "academyStatus": "Преподаватель, артист оркестра",
+  "academyDiploma": "Диплом о высшем образовании",
+  "highSchool": "Барановичское государственное муз. училище",
+  "highSchoolStatus": "Учитель (ударные инстр.)",
+  "highSchoolDiploma": "Диплом о среднем специальном образовании"
 }
