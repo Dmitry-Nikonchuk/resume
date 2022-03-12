@@ -40,14 +40,14 @@ export default () => {
         </S.List>
       </S.Skills>
       <S.Languages>
-        <Title>{t('langs.title')}</Title>
+        <Title>{t("langs.title")}</Title>
         <S.GridRow>
-          <SubTitle colored>{t('langs.russian')}</SubTitle>
+          <SubTitle colored>{t("langs.russian")}</SubTitle>
           <Text>{t("langs.russianLevel")}</Text>
         </S.GridRow>
         <S.GridRow>
-          <SubTitle colored>{t('langs.english')}</SubTitle>
-          <Text>{t('langs.englishLevel')}</Text>
+          <SubTitle colored>{t("langs.english")}</SubTitle>
+          <Text>{t("langs.englishLevel")}</Text>
         </S.GridRow>
       </S.Languages>
     </S.Container>

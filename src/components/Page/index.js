@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Link from 'components/Link';
 import Sidebar from './Sidebar';
+import WorkExperience from 'components/WorkExperience';
 import { Title, SubTitle, Text } from 'components/Layout';
 import * as S from './styled';
 
@@ -17,44 +18,7 @@ const Page = ({ pageRef }) => {
           <S.Position>{t("profession")}</S.Position>
         </S.NameContainer>
         <S.Article>
-          <Title>{t("workExperience.title")}</Title>
-          <S.ContentBlock>
-            <SubTitle colored>Middle frontend developer</SubTitle>
-            <SubTitle>
-              EffectiveSoft | {t("timing.april")} 2020 - {t("timing.present")}
-            </SubTitle>
-            <Text>{t("workExperience.es")}</Text>
-          </S.ContentBlock>
-          <S.ContentBlock>
-            <SubTitle colored>Frontend developer</SubTitle>
-            <SubTitle>
-              DeltaStream | {t("timing.may")} 2018 - {t("timing.april")} 2020
-            </SubTitle>
-            <Text>{t("workExperience.deltastream")}</Text>
-          </S.ContentBlock>
-          <S.ContentBlock>
-            <SubTitle colored>Frontend developer</SubTitle>
-            <SubTitle>
-              Logic Software Inc. | {t("timing.july")} 2017 - {t("timing.may")}{" "}
-              2018
-            </SubTitle>
-            <Text>{t("workExperience.ls")}</Text>
-          </S.ContentBlock>
-          <S.ContentBlock>
-            <SubTitle colored>{t("choirPosition")}</SubTitle>
-            <SubTitle>
-              {t("choirName")} | {t("timing.march")} 2013 - {t("timing.july")}{" "}
-              2017
-            </SubTitle>
-            <Text>{t("workExperience.choir")}</Text>
-          </S.ContentBlock>
-          <S.ContentBlock>
-            <SubTitle colored>{t("designer")}</SubTitle>
-            <SubTitle>
-              MidenCo | {t("timing.june")} 2016 - {t("timing.march")} 2017
-            </SubTitle>
-            <Text>{t("workExperience.midenco")}</Text>
-          </S.ContentBlock>
+          <WorkExperience />
         </S.Article>
         <S.Article noBorder>
           <Title>{t("education")}</Title>
