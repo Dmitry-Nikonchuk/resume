@@ -5,12 +5,7 @@
   "education": "Образование",
   "contacts": {
     "title": "Контакты",
-    "phone": "Телефон",
-    "email": "Email",
-    "skype": "Skype",
-    "location": "Место проживания",
-    "locationString": "Беларусь, г. Минск",
-    "langs": "Languages"
+    "locationString": "Беларусь, г. Минск"
   },
   "timing": {
     "march": "Март",
@@ -30,24 +25,11 @@
     "midenco": "Разработка клиентской части интернет-магазина от идеи до выхода в production. Используемый стек технологий: HTML, CSS, JQuery"
   },
   "skills": {
-    "title": "Навыки",
-    "list": [
-      "HTML5",
-      "CSS3, препроцессоры (LESS, SASS), фреймворки (Bootstrap)",
-      "Javascript (ES5, ES6)",
-      "Знание NodeJS, Express, NestJs",
-      "React, React Hooks, Redux, Redux-thunk, Redux-saga, Styled-Components",
-      "Знание Gulp, Webpack",
-      "Базовые знания алгоритмов и структур данных, ООП",
-      "Git, Jira",
-      "Photoshop, Figma"
-    ]
+    "title": "Навыки"
   },
   "langs": {
     "title": "Языки",
-    "russian": "Русский",
     "russianLevel": "Родной",
-    "english": "Английский",
     "englishLevel": "A2, A2+"
   },
   "choirName": "Национальный хор РБ им. Г.И. Цитовича",
