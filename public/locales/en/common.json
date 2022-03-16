@@ -5,10 +5,6 @@
   "education": "Education",
   "contacts": {
     "title": "Get in touch",
-    "phone": "Mobile",
-    "email": "Email",
-    "skype": "Skype",
-    "location": "Location",
     "locationString": "Belarus, Minsk"
   },
   "timing": {
@@ -29,24 +25,11 @@
     "midenco": "Development of the client side of an online store from start to production. Technology stack used: HTML, CSS, JQuery"
   },
   "skills": {
-    "title": "Skills",
-    "list": [
-      "HTML5",
-      "CSS3, preprocessors (LESS, SASS), frameworks (Bootstrap)",
-      "Javascript (ES5, ES6)",
-      "Knowledge of NodeJS, Express, NestJs",
-      "React, React Hooks, Redux, Redux-thunk, Redux-saga, Styled-Components",
-      "Knowledge of Gulp, Webpack",
-      "Basic knowledge of algorithms and data structures, OOP",
-      "Git, Jira",
-      "Photoshop, Figma"
-    ]
+    "title": "Skills"
   },
   "langs": {
     "title": "Languages",
-    "russian": "Russian",
     "russianLevel": "Native",
-    "english": "English",
     "englishLevel": "A2, A2+"
   },
   "choirName": "National Choir of Belarus named Citovich",

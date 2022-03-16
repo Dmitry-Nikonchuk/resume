@@ -24,9 +24,9 @@ export const LngBtn = styled.button`
   justify-content: center;
   width: 30px;
   height: 30px;
-  border: 1px solid ${({ theme }) => theme.colors.main};
+  border: 0;
   font-size: 14px;
-  background: ${({ isActive, theme }) => isActive ? theme.colors.main : 'transparent'};
+  background: ${({ isActive, theme }) => isActive ? theme.colors.light : 'transparent'};
   cursor: pointer;
   color: ${({ theme, isActive }) => isActive ? theme.colors.white : theme.colors.text};
 `;
